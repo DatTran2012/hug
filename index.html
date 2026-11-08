@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#dff3ff" />
+  <meta name="description" content="Một góc nhỏ dịu dàng gửi đến em — mau khỏe nhé!" />
+  <title>Mau khỏe nhé! 🐰</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <span class="cloud cloud-one"></span><span class="cloud cloud-two"></span>
+    <span class="cloud cloud-three"></span>
+    <span class="star star-one">✦</span><span class="star star-two">✧</span>
+    <span class="star star-three">✦</span><span class="star star-four">✧</span>
+  </div>
+
+  <main class="page">
+    <header class="topline">
+      <span class="tiny-heart">♡</span>
+      <span>MỘT CHÚT DỊU DÀNG GỬI ĐẾN EM</span>
+      <span class="tiny-heart">♡</span>
+    </header>
+
+    <section class="hero" aria-labelledby="headline">
+      <div class="intro">
+        <p class="eyebrow">Gửi cô gái nhỏ đang cần nghỉ ngơi 🌷</p>
+        <h1 id="headline">Mau khỏe nhé,<br><span>cô gái đáng yêu!</span></h1>
+        <p class="subtitle">Hôm nay cứ cho phép bản thân nghỉ ngơi một chút nha.<br class="desktop-break"> Mọi thứ có thể chờ, sức khỏe của em thì quan trọng hơn.</p>
+      </div>
+
+      <div class="scene" aria-label="Chú thỏ trắng hoạt hình đang ôm trái tim">
+        <div class="sun-glow"></div>
+        <div class="floating-heart heart-a">♡</div>
+        <div class="floating-heart heart-b">♥</div>
+        <div class="floating-heart heart-c">♡</div>
+        <div class="bunny" id="bunny">
+          <div class="ear ear-left"><i></i></div>
+          <div class="ear ear-right"><i></i></div>
+          <div class="body"></div>
+          <div class="head">
+            <div class="cheek cheek-left"></div><div class="cheek cheek-right"></div>
+            <div class="eye eye-left"></div><div class="eye eye-right"></div>
+            <div class="nose"></div>
+            <div class="mouth"></div>
+          </div>
+          <div class="arm arm-left"></div><div class="arm arm-right"></div>
+          <div class="belly-heart">♥</div>
+          <div class="foot foot-left"></div><div class="foot foot-right"></div>
+        </div>
+        <div class="ground-shadow"></div>
+        <div class="sparkle sparkle-a">✦</div><div class="sparkle sparkle-b">✧</div>
+        <div class="sparkle sparkle-c">✦</div>
+      </div>
+    </section>
+
+    <section class="message-card">
+      <div class="card-icon">☁️</div>
+      <p class="message" id="message">Thỏ trắng gửi em một cái ôm thật to. Mong cơn mệt mỏi sẽ nhẹ nhàng tan đi, để nụ cười xinh lại xuất hiện trên môi em nhé.</p>
+      <p class="signature">— Một người luôn mong em bình an <span>♡</span></p>
+    </section>
+
+    <section class="actions">
+      <button class="primary-btn" id="hugBtn"><span>🐰</span> Nhận một cái ôm nè</button>
+      <!-- <button class="secondary-btn" id="noteBtn">💌 Mở lời nhắn bí mật</button> -->
+    </section>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <footer>Uống thuốc đúng giờ · Ăn một chút · Ngủ thật ngon <span>☾</span></footer>
+  </main>
+
+  <div class="modal-backdrop" id="modal" aria-hidden="true">
+    <div class="note-modal" role="dialog" aria-modal="true" aria-labelledby="noteTitle">
+      <button class="close-btn" id="closeModal" aria-label="Đóng">×</button>
+      <div class="envelope">💌</div>
+      <p class="eyebrow">Một lời nhắn nhỏ</p>
+      <h2 id="noteTitle">em không cần phải cố gắng quá đâu.</h2>
+      <p>Cứ nghỉ ngơi, hồi phục từ từ và dịu dàng với chính mình nhé. Có những ngày chỉ cần ngủ ngon hơn một chút, ăn được một bữa ngon hơn một chút — vậy cũng đã rất giỏi rồi.</p>
+      <p class="note-end">Mong ngày mai của em dễ chịu hơn hôm nay thật nhiều. ♡</p>
+      <button class="primary-btn modal-ok" id="gotIt">Thỏ biết rồi, cảm ơn nhé!</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
